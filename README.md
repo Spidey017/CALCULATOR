@@ -1,57 +1,66 @@
-Dynamic Glassmorphism Calculator
-A sleek, modern, and fully responsive calculator web application with a unique glassmorphism design, animated particle background, and calculation history.
+💎 Dynamic Glassmorphism Calculator
+A sleek, modern, and fully responsive calculator web application featuring a unique glassmorphism design, animated particle background, and calculation history.
 
-Live Demo
-Features
-Standard & Scientific Operations: Performs all basic arithmetic operations (add, subtract, multiply, divide) as well as percentage calculations.
+✨ Features
+Standard & Scientific Operations
+Perform basic arithmetic operations (add, subtract, multiply, divide), along with percentage calculations.
 
-Glassmorphism UI: A beautiful frosted-glass effect on the calculator interface.
+Glassmorphism UI
+Features a beautiful frosted-glass effect for a clean, futuristic look.
 
-Dynamic Animated Background: An interactive particle constellation background that moves and responds.
+Dynamic Animated Background
+Interactive particle constellation background that moves and responds in real-time.
 
-Calculation History: A slide-out panel that stores a list of your past calculations. You can click on a past result to use it in a new calculation.
+Calculation History
+Slide-out history panel stores your past calculations. Tap a previous result to reuse it in a new operation.
 
-Responsive Design: The layout adapts perfectly to any screen size, from mobile phones to desktop monitors.
+Responsive Design
+Seamlessly adapts to any screen size—from mobile devices to desktops.
 
-Interactive Buttons: Buttons provide visual feedback with hover effects, active states, and a satisfying ripple effect on click.
+Interactive Buttons
+Buttons include hover effects, active states, and a satisfying ripple animation on click.
 
-Error Handling: Gracefully handles division by zero by displaying an error message.
+Error Handling
+Gracefully handles errors like division by zero by displaying an appropriate message.
 
-Personalized Watermark: Features a custom watermark with the developer's name.
+Personalized Watermark
+Includes a custom watermark featuring the developer's name.
 
-Tech Stack
-HTML5: For the structure and content of the application.
+🛠️ Tech Stack
+HTML5 – Structure and content
 
-CSS3: For all styling, including the glassmorphism effect, animations, and responsive layout.
+CSS3 – Styling, glassmorphism effects, animations, and responsiveness
 
-JavaScript (ES6+): For all the application logic, including calculations, event handling, history management, and the dynamic particle background.
+JavaScript (ES6+) – Core logic, event handling, calculations, particle background, and history management
 
-Installation
-To run this project locally, follow these simple steps:
+📦 Installation
+To run this project locally:
 
 Clone the repository:
 
+bash
+Copy code
 git clone https://github.com/Spidey017/Calculator.git
-
-
 Navigate to the project directory:
 
+bash
+Copy code
 cd Calculator
-
-
 Open index.html in your browser:
-You can do this by simply double-clicking the index.html file or by using a live server extension in your code editor (like Live Server for VS Code).
 
-File Structure
-The project is organized into three main files, keeping the structure clean and easy to maintain:
+Simply double-click index.html
+or
 
+Use a live server extension (e.g., Live Server in VS Code)
+
+📁 File Structure
+bash
+Copy code
 .
-├── index.html      # The main HTML file for the structure
-├── style.css       # All CSS styles for the application
-└── script.js       # All JavaScript logic and functionality
+├── index.html      # Main HTML structure
+├── style.css       # Styles and animations
+└── script.js       # Logic and interactivity
+🙌 Credits
+Particle Background: Custom JavaScript implementation for dynamic particle effects.
 
-
-Credits
-Particle Background: The animated background is a custom JavaScript implementation.
-
-Watermark: Personalized for ARMAN ATTAR.
+Watermark: Personalized for Arman Attar.
