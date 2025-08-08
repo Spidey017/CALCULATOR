@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Glassmorphism Calculator</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Canvas for the animated background -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Main calculator container -->
+    <div class="calculator">
+        <button class="history-toggle" data-action="toggle-history" aria-label="Toggle History">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+        </button>
+
+        <!-- Display Screen -->
+        <div class="calculator-display">
+            <div class="previous-operand" data-previous-operand></div>
+            <div class="current-operand" data-current-operand>0</div>
+        </div>
+
+        <!-- Calculator Buttons -->
+        <div class="calculator-keys">
+            <button class="function" data-action="clear">AC</button>
+            <button class="function" data-action="delete">DEL</button>
+            <button class="function operator" data-action="percent">%</button>
+            <button class="operator" data-action="divide">÷</button>
+
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button class="operator" data-action="multiply">×</button>
+
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button class="operator" data-action="subtract">−</button>
+
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button class="operator" data-action="add">+</button>
+
+            <button class="span-two" data-number>0</button>
+            <button data-action="decimal">.</button>
+            <button class="equals-sign" data-action="calculate">=</button>
+        </div>
+
+        <!-- History Panel -->
+        <div class="history-panel">
+            <h3>History</h3>
+            <ul class="history-list">
+                <!-- History items will be populated by JS -->
+            </ul>
+            <button class="clear-history" data-action="clear-history">Clear History</button>
+        </div>
+        
+        <!-- Watermark -->
+        <div class="watermark">ARMAN ATTAR</div>
+    </div>
+
+    <!-- Link to your external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
