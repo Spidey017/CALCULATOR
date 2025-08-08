@@ -30,11 +30,11 @@ To run this project locally:
 
 Clone the repository:
 
-git clone https://github.com/Spidey017/Calculator.git
+    git clone https://github.com/Spidey017/Calculator.git
 
 Navigate to the project directory:
 
-cd Calculator
+    cd Calculator
 
 Open index.html in your browser:
 Simply double-click index.html or use a live server extension (e.g., Live Server in VS Code).
