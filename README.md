@@ -1,6 +1,7 @@
 💎 Dynamic Glassmorphism Calculator
 A sleek, modern, and fully responsive calculator web application featuring a unique glassmorphism design, animated particle background, and calculation history.
 
+
 ✨ Features
 Standard & Scientific Operations: Perform basic arithmetic operations (add, subtract, multiply, divide), along with percentage calculations.
 
